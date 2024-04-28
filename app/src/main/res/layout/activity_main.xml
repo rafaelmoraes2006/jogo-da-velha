@@ -4,15 +4,125 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="17dp"
+    tools:layout_editor_absoluteY="10dp">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageButton
+        android:id="@+id/lugar1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#BFBFBF"
+        app:layout_constraintBottom_toTopOf="@+id/lugar4"
+        app:layout_constraintEnd_toStartOf="@+id/lugar2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@null" />
+
+    <ImageButton
+        android:id="@+id/lugar2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#BFBFBF"
+        app:layout_constraintBottom_toTopOf="@+id/lugar5"
+        app:layout_constraintEnd_toStartOf="@+id/lugar3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lugar1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@null" />
+
+    <ImageButton
+        android:id="@+id/lugar3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#BFBFBF"
+        app:layout_constraintBottom_toTopOf="@+id/lugar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lugar2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@null" />
+
+    <ImageButton
+        android:id="@+id/lugar4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#BFBFBF"
+        app:layout_constraintBottom_toTopOf="@+id/lugar7"
+        app:layout_constraintEnd_toStartOf="@+id/lugar5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lugar1"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@null" />
+
+    <ImageButton
+        android:id="@+id/lugar5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#BFBFBF"
+        app:layout_constraintBottom_toTopOf="@+id/lugar8"
+        app:layout_constraintEnd_toStartOf="@+id/lugar6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lugar4"
+        app:layout_constraintTop_toBottomOf="@+id/lugar2"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@null" />
+
+    <ImageButton
+        android:id="@+id/lugar6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#BFBFBF"
+        app:layout_constraintBottom_toTopOf="@+id/lugar9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lugar5"
+        app:layout_constraintTop_toBottomOf="@+id/lugar3"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@null" />
+
+    <ImageButton
+        android:id="@+id/lugar7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#BFBFBF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/lugar8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lugar4"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@null" />
+
+    <ImageButton
+        android:id="@+id/lugar8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#BFBFBF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/lugar9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lugar7"
+        app:layout_constraintTop_toBottomOf="@+id/lugar5"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@null" />
+
+    <ImageButton
+        android:id="@+id/lugar9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#BFBFBF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/lugar8"
+        app:layout_constraintTop_toBottomOf="@+id/lugar6"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@null" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
