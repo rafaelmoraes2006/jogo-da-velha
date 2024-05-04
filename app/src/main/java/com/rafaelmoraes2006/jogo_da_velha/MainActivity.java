@@ -168,6 +168,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 jogadorVencedor = null;
                 empatou = false;
+                jogadorDaVez = R.drawable.circulo;
                 dialog.dismiss();
             }
         });
